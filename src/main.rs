@@ -1,3 +1,6 @@
+mod crypto;
+mod error;
+
 use rand::Rng;
 use sha2::{Sha256, Digest};
 use chrono::prelude::*;
